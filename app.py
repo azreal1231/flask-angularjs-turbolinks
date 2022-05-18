@@ -9,7 +9,7 @@ from flask_turbolinks import turbolinks
 
 app = Flask(__name__)
 # turbo = Turbo(app)
-turbolinks(app)
+turbo = turbolinks(app)
 
 
 # @app.context_processor
