@@ -13,8 +13,3 @@ function bootstrapAngular() {
   
       $scope.hello = "hello"
   });
-  
-  app.config(function ($interpolateProvider) {
-      $interpolateProvider.startSymbol('{[');
-      $interpolateProvider.endSymbol(']}');
-  });
